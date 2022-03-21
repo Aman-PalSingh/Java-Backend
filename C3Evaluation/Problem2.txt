@@ -1,0 +1,33 @@
+Checked and Unchecked Exceptions
+Checked Exceptions - this Exception is compiled time exception.
+These exceptions should be handled in Compile time only.
+example I/O Exception, SQl Exception.
+
+Unchecked Exception: this a runtime exception.
+example Arithmetic Exception, ArrayIndexOutOFBound Exception.
+these exceptions are handled at runtime only.
+If there is anr checked Exception the compiler won't detect it.
+
+
+throw vs throws
+
+throw:-
+throw is used to throw an exception.
+the exception can be checked or unchecked.
+
+throws:-
+throws keyword declares exception.
+It is in used in methods.
+the calling methods is responsible to act upon the exception.
+
+final vs finally
+final is used to prevent or restricts method overriding.
+final keyword can be used in member variables, methods, class etc
+the final class can't be extended or have child class
+the final method can't be overridden in the child class.
+
+
+finally
+
+ If we don't handle the Exception the program execution terminates at that point
+ but the snippets inside the finally block will surely fbe executed whether there is exception ot not
