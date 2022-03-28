@@ -1,0 +1,7 @@
+Deadlock.
+DeadLock means lock without keys.
+if two threads are waiting for each other for infinite time then this condition is termed as deadlock.
+Condition for Deadlock.
+If the threads are Synchronized then only there are chances of deadlock to arise.
+if two thread go in such situation thus can't be solved however it may be prevented for to threads to go
+in deadlock condition
